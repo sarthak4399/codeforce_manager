@@ -89,6 +89,9 @@ void manageGit() {
     } else {
         std::cout << "Failed to commit and push changes.\n";
     }
-
     lastCreated.clear();
 }
+
+//Build Procesducre 
+// cmake -S . -B build
+// cmake --build build
